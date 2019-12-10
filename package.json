@@ -1,0 +1,21 @@
+{
+  "name": "omni-project",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/react-*",
+      "**/react-*/**"
+    ]
+  },
+  "scripts": {
+    "bs": "lerna bootstrap",
+    "build": "lerna run build --stream --parallel",
+    "clean": "lerna clean"
+  }
+}

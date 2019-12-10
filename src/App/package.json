@@ -1,0 +1,11 @@
+{
+  "name": "@otten/app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "react-scripts start"
+  }
+}
